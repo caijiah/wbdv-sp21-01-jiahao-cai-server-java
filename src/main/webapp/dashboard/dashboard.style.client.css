@@ -1,0 +1,65 @@
+body {
+    background-color: #d2d2d2;
+}
+.sticky-nav {
+    position: fixed;
+    width: 100%;
+    background-color: #4C8BF5;
+    z-index: 1;
+}
+
+.sticky-nav-padding {
+    padding: 5px;
+}
+
+.sticky-nav-row i,
+.sticky-nav-row h5{
+    color: white;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+
+.plus-button i {
+    padding: unset;
+}
+
+.plus-button i:not(:last-child) {
+    color: red;
+}
+
+.search input{
+    border: none;
+    background-color: #94b9f5;
+}
+.search input::placeholder {
+    color: white;
+}
+
+.course-list-area {
+    padding-top: 5px;
+}
+
+.course-list-area a {
+    color: black;
+}
+
+.file-icon {
+    color: #4C8BF5;
+}
+
+.course-list-header {
+    margin-top: 25px;
+    border-bottom: darkgray 1px solid;
+}
+
+.course-list-course {
+    background-color: white;
+    border: #DCDCDC	 1px solid;
+}
+
+.sticky-button {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    color: red;
+}
