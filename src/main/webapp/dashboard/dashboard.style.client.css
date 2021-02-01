@@ -5,7 +5,8 @@ body {
     position: fixed;
     width: 100%;
     background-color: #4C8BF5;
-    z-index: 1;
+    z-index: 2;
+    top: 0;
 }
 
 .sticky-nav-padding {
@@ -50,6 +51,11 @@ body {
 .course-list-header {
     margin-top: 25px;
     border-bottom: darkgray 1px solid;
+    position: sticky;
+    top:52px;
+    display: flex;
+    background: #d2d2d2;
+    z-index: 1;
 }
 
 .course-list-course {
