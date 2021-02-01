@@ -73,3 +73,7 @@ body {
 .back-home-button a{
     color: dodgerblue;
 }
+
+.float-right {
+    margin-top: 3px;
+}
