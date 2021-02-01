@@ -69,3 +69,7 @@ body {
     right: 10px;
     color: red;
 }
+
+.back-home-button a{
+    color: dodgerblue;
+}
