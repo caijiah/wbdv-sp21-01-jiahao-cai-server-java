@@ -1,3 +1,11 @@
 .button-header {
     white-space: nowrap;
 }
+
+.button-header i{
+    cursor: pointer;
+}
+
+.wbdv-actions {
+    cursor: pointer;
+}
