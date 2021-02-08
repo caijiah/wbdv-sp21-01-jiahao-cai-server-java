@@ -50,6 +50,7 @@ function createUser() {
         username: $usernameFld.val(),
         lastname: $lastNameFld.val(),
         firstname: $firstNameFld.val(),
+        password: $passwordFld.val(),
         role: $roleFld.val()
     }
     console.log(user)
@@ -62,6 +63,7 @@ function createUser() {
     $usernameFld.val("")
     $lastNameFld.val("")
     $firstNameFld.val("")
+    $passwordFld.val("")
 }
 
 function deleteUser(event) {
@@ -101,6 +103,7 @@ function updateUser() {
     $usernameFld.val("")
     $lastNameFld.val("")
     $firstNameFld.val("")
+    $passwordFld.val("")
 }
 
 function init() {
