@@ -118,6 +118,7 @@
         $createBtn = $(".wbdv-create-btn")
         $updateBtn = $(".wbdv-update-btn")
         $tbody = $(".wbdv-tbody")
+        $userRowTemplate = $(".wbdv-template") // this is never used
 
         $createBtn.click(createUser)
         $updateBtn.click(updateUser)
