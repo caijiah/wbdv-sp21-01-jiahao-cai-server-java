@@ -87,7 +87,7 @@
         $usernameFld.val(selectedUser.username)
         $firstNameFld.val(selectedUser.firstname)
         $lastNameFld.val(selectedUser.lastname)
-        $passwordFld.val("")
+        $passwordFld.val(selectedUser.password)
         $roleFld.val(selectedUser.role)
     }
 
