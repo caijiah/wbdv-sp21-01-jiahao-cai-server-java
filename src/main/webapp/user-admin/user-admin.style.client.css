@@ -9,3 +9,7 @@
 .wbdv-actions {
     cursor: pointer;
 }
+
+.wbdv-hidden {
+    display: none;
+}
