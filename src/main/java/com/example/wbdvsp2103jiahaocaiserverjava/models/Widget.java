@@ -4,6 +4,8 @@ public class Widget {
     private Long id;
     private String type;
     private Integer size;
+    private Integer width;
+    private Integer height;
     private String text;
     private String topicId;
 
@@ -58,4 +60,19 @@ public class Widget {
       this.topicId = topicId;
     }
 
+    public Integer getWidth() {
+        return width;
+    }
+
+    public void setWidth(Integer width) {
+        this.width = width;
+    }
+
+    public Integer getHeight() {
+        return height;
+    }
+
+    public void setHeight(Integer height) {
+        this.height = height;
+    }
 }
