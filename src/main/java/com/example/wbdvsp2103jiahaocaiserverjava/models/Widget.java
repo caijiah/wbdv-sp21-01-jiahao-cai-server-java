@@ -22,6 +22,7 @@ public class Widget {
     private Integer size;
     private Integer width;
     private Integer height;
+    private Boolean ordered;
 
     public Widget() {
     }
@@ -36,6 +37,7 @@ public class Widget {
         this.size = other.size;
         this.width = other.width;
         this.height = other.height;
+        this.ordered = other.ordered;
     }
 
     public void copyWidget(Widget other) {
@@ -48,11 +50,13 @@ public class Widget {
         this.size = other.size;
         this.width = other.width;
         this.height = other.height;
+        this.ordered = other.ordered;
     }
 
 
     public Widget(Long id, String topicId, String name, String type,
-                  String text, String src, Integer size, Integer width, Integer height) {
+                  String text, String src, Integer size,
+                  Integer width, Integer height, Boolean ordered) {
         this.id = id;
         this.topicId = topicId;
         this.name = name;
@@ -62,6 +66,7 @@ public class Widget {
         this.size = size;
         this.width = width;
         this.height = height;
+        this.ordered = ordered;
     }
 
     public Long getId() {
@@ -134,6 +139,14 @@ public class Widget {
 
     public void setHeight(Integer height) {
         this.height = height;
+    }
+
+    public Boolean getOrdered() {
+        return ordered;
+    }
+
+    public void setOrdered(Boolean ordered) {
+        this.ordered = ordered;
     }
 
 }
